@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+
+# Other common Python ignores
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.pyc
+*.sdx
+*.tar.gz
+
+# If you're using virtual environments, ignore them
+venv/
+myenv/
+*.venv/

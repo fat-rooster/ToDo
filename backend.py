@@ -111,7 +111,7 @@ def add_task(description, tags):
 
 def remove_task(task_id):
     conn = get_db()
-    sql = ''' DELETE FROM tasks WHERE task_id = ? '''
+    sql = ''' DELETE FROM entities WHERE entity_id = ? '''
     cur = conn.cursor()
     n=cur.rowcount
     cur.execute(sql, (task_id,))
